@@ -1,0 +1,10 @@
+$brand-orange: #FF7E00;
+$brand-teal:   #14B3B3;
+$surface-light: #FFFFFF;
+$surface-dark:  #111111;
+$text-light:    #000000;
+$text-dark:     #FFFFFF;
+
+@mixin sidebar-gradient($color) {
+  background: linear-gradient(180deg, $color 0%, darken($color, 15%) 100%);
+}
